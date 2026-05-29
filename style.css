@@ -1,0 +1,328 @@
+.html,body{
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2J2czVva3gxcWJ0aTMyM25la3RpbWw0dG1vcHh0aGZ6aGpob2VkayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2RgN7WUjeUUXm0/giphy.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+
+
+
+.header{
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.header-item-button{
+    border: none;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.header-item-button-title{
+    border: none;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+
+.header-item-href{
+    text-decoration: none;
+}
+
+
+.header-item-button:hover{
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 20%;
+}
+
+
+
+.frame-img{
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+
+.text-top{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    font-size: 50px;
+  animation: aura-glow 1.5s infinite alternate;
+    animation: textanimation;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite ;
+    animation-duration: 2s ;
+}
+
+
+@keyframes textanimation {
+    0%{
+        transform: translatey(0%);
+    }
+    50%{
+        transform: translatey(-100%);
+    }
+    100%{
+        transform: translatey(0%);
+    }
+}
+
+.line{
+    background-color: white;
+    color: white;
+    position: relative;
+    padding-left: 150px;
+}
+
+
+
+
+
+.text-top-2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.flexbox{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    position:relative;
+    justify-content: center;
+}
+
+.item{
+    display: block;
+    box-sizing: border-box;
+    width: 160px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0); 
+     /* ขอบโค้งมน */
+    border-radius: 10px; 
+    margin: 10px;
+}
+
+.item:hover{
+    border: 3px solid rgb(3, 0, 202); 
+     /* ขอบโค้งมน */
+    border-radius: 10px;
+}
+
+
+
+.fram-file{
+    background-color: rgba(255, 255, 255, 0.5); /* 50% Black */
+    margin-top: 10px;
+    padding: 170px;
+}
+
+.file{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    border-radius: 20px;
+    background-color: red
+    
+}
+
+
+.image-file{
+    margin-left: 20px;
+    width: 50px;
+}
+
+
+.content2{
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.flexbox2{
+    display: flex ;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item2{
+    display: block;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+}
+
+
+
+.file-img{
+    width: 50px;
+}
+
+.file-h1-name{
+    color: white;
+    font-size: 15px;
+}
+
+.button-script {
+  width: 120px;
+  height: 60px;
+  border: 3px solid #ffd900;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1.2em;
+  font-weight: 550;
+}
+
+.button-script2 {
+  width: 120px;
+  height: 60px;
+  border: 3px solid #ffd900;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1.2em;
+  font-weight: 550;
+  margin-top: 20px;
+}
+
+.button-script:hover {
+  background: #01040c;
+  color: white;
+  font-size: 1.5em;
+}
+.button-script2:hover {
+  background: #01040c;
+  color: white;
+  font-size: 1.5em;
+}
+
+/* From Uiverse.io by alexmaracinaru */ 
+.button-goto {
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #000000;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  justify-self: center;
+  margin-top: 150px;
+}
+
+.button-goto:hover {
+  background: #2301e2;
+}
+
+.button-goto > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.button-goto:hover svg {
+  transform: translateX(5px);
+}
+
+.button-goto:active {
+  transform: scale(0.95);
+}
+
+
+
+.text-file{
+    font-size: 40px;
+}
+
+.footer{
+    background-color: white;
+    padding-bottom: 10px;
+    margin-top: 90px;
+}
+
+
+.h5-footer{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+
+.ffffff{
+    padding-top: 120px;
+}
+
+
+
+
+.profile-img{
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    justify-content: center;
+    display: block
+    
+}
+
+
+
+.img-ins{
+    width: 50px;
+}
+
+.button-ins{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    left: 20px;
+}
+.button-face{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.goto-script{
+    text-decoration: underline;
+}
+
+.image-item-header{
+    width: 50px;
+    position: absolute ;
+    right: 60px;
+    top: 10px;
+}
+
