@@ -326,3 +326,87 @@
     top: 10px;
 }
 
+
+
+
+
+
+
+
+/* ================= MOBILE ================= */
+@media screen and (max-width: 768px) {
+
+    .header{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header-item-button,
+    .header-item-button-title{
+        font-size: 14px;
+    }
+
+    .image-item-header{
+        width: 35px;
+        right: 10px;
+        top: 10px;
+    }
+
+    .text-top{
+        font-size: 28px;
+        top: 80px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .text-top-2{
+        font-size: 16px;
+        top: 60px;
+        text-align: center;
+    }
+
+    .button-goto{
+        margin-top: 90px;
+        font-size: 13px;
+    }
+
+    .fram-file{
+        padding: 20px;
+    }
+
+    .text-file{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .flexbox2{
+        justify-content: center;
+    }
+
+    .item2{
+        width: 100%;
+        max-width: 300px;
+        padding: 10px;
+    }
+
+    .file-h1-name{
+        font-size: 14px;
+    }
+
+    .button-script,
+    .button-script2{
+        width: 100%;
+        max-width: 180px;
+        height: 50px;
+        font-size: 1rem;
+    }
+
+    .profile-img{
+        width: 120px;
+    }
+
+    body{
+        background-size: cover;
+        background-position: center;
+    }
+}
