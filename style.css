@@ -364,6 +364,9 @@
     .button-goto{
         margin-top: 120px;
     }
+    .goto{
+        justify-content: center;
+    }
 }
 
 /* ================= MOBILE ================= */
@@ -449,5 +452,8 @@
     body{
         background-size: cover;
         background-position: center;
+    }
+    .goto{
+        justify-content: center;
     }
 }
